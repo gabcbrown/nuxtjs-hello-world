@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: nuxt-js
+  name: nuxtjs
   env: node
   plan: starter
   buildCommand: yarn; yarn build
@@ -9,7 +9,7 @@ services:
 # - type: web
 #   name: nuxtjs-static
 #   env: static
-#   buildCommand: yarn; yarn build; yarn next export
-#   staticPublishPath: out
+#   buildCommand: yarn; yarn generate
+#   staticPublishPath: dist
 #   pullRequestPreviewsEnabled: true     # optional
 
